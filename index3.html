@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bai3.css" rel="stylesheet"> 
+</head>
+
+<body>
+    <h2>Bài tập về table</h2>
+    <P><b>Yêu cầu:</b>Code table như dưới đây, dùng font Roboto trên trang google font.</P>
+    <table class="table1">
+        <thead class="head1">
+            <th>ID</th>
+            <th>Họ và tên </th>
+            <th>Giới tính </th>
+            <th>Tuổi </th>
+        </thead>
+        <tbody class="new1">
+            <tr>
+                <td>1</td>
+                <td>Lê Văn A</td>
+                <td>Nam </td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lê Thị B </td>
+                <td>Nữ </td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lê Văn C</td>
+                <td>Nam </td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        .table1 {
+            box-sizing: border-spacing;
+        }
+
+        table,
+        thead,
+        tbody,
+        td,
+        th,
+        tr {
+            border: 0px gray;
+            padding: 0px;
+            border-collapse: collapse;
+            width: 400px;
+            height: 50px;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .head1 {
+            background-color: rgb(30, 133, 111);
+            color: white;
+        }
+
+        .new1 tr {
+            padding: 20px;
+            border: solid #f3f3f3 2px;
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.list1 {
+   padding: 0px;
+   border: 0px;
+   border-collapse: collapse;
+}
+
+.list1 li {
+
+   list-style-type: none;
+   background-color: #f3f3f3;
+   border: solid 1px;
+   padding: 0px;
+   width: 300px;
+   text-align: left;
+   font-size: 20px;
+   height: 40px;
+}
+
+
+
+.list1 :hover {
+   background-color: rgb(100, 134, 161);
+}
+
+.list2 {
+   padding: 0px;
+   border: 0px;
+}
+
+.list2 li {
+   list-style-type: none;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: aliceblue;
+   text-align: center;
+   display: inline-block;
+   font-size: 30px;
+}
+
+.list2 :hover {
+   background-color: rgb(229, 139, 14);
+}

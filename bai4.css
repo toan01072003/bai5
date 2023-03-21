@@ -1,0 +1,133 @@
+.noidung1 {
+    color: white;
+}
+
+.noidung1::first-letter {
+    font-size: 40px;
+}
+
+.noidung::first-line {
+    text-transform: uppercase;
+}
+
+.noidung {
+    position: relative;
+    background-color: #0065bc;
+    padding: 50px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.noidung::before {
+    position: absolute;
+    content: "";
+    padding: 60px;
+    border-radius: 50%;
+    background-color: #0000002d;
+    top: 10px;
+    left: 10px;
+}
+
+.noidung::after {
+    position: absolute;
+    bottom: -10px;
+    right: -30px;
+    content: "";
+    padding: 100px;
+    border-radius: 60%;
+    background-color: #0000002d;
+
+}
+
+.the2 .div1 {
+    border-radius: 8px;
+    background-color: #e25300;
+    width: 100px;
+    height: 80px;
+
+    font-size: 30px;
+}
+
+.the2 .div2 {
+    border-radius: 8px;
+    position: absolute;
+    background-color: #e25300;
+    width: 100px;
+    height: 80px;
+    right: 20px;
+    top: 20px;
+
+    font-size: 30px;
+}
+
+.the2 .div3 {
+    border-radius: 8px;
+    background-color: blue;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+    font-size: 30px;
+
+}
+
+.the2 .div4 {
+    border-radius: 8px;
+    background-color: green;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+
+    font-size: 30px;
+
+}
+
+.the3 {
+    border-radius: 8px;
+    height: 20px;
+    padding: 20px;
+}
+
+.the2 {
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    height: 800px;
+    background-color: rgb(173, 170, 170);
+    width: 1500px;
+}
+
+.codinh {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    padding: 20px;
+    border: 10px;
+    border-radius: 50%;
+    background-color: green;
+    perspective: 2;
+}
+
+.the1 {
+    border-radius: 8px;
+    background-color: #e25300;
+    position: sticky;
+    padding: 0px;
+    height: 50px;
+
+
+}
+
+.the1 p {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    position: sticky;
+}
